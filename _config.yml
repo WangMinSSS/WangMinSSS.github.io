@@ -31,7 +31,7 @@ paginate: 20
 title : WangMin
 tagline: coder
 description: python | machine learning
-# assets: /assets
+assets: /assets
 url:
 baseurl:
 
@@ -69,7 +69,7 @@ rss: /atom.xml ## RSS address.
 highlight_theme: night
 
 #### github-card
-github-card:
+# github-card:
 
 #### Image
 imglogo:
