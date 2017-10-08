@@ -66,7 +66,7 @@ widgets:
 rss: /atom.xml ## RSS address.
 
 #### 代码主题高亮
-highlight_theme: night
+#highlight_theme: night
 
 #### github-card
 # github-card:
