@@ -12,9 +12,11 @@ skimage大部分的功能都在子模块中：
 子模块和功能清单可以在网页上的API reference中找到。
 
 在scikit-image中，图片被表示为numpy数组，例如，灰度图表示为2D数组。
-
+    
+    {% highlight python %}
 	>>> type(camera)
     <type 'numpy.ndarray'>
     >>> camera.shape
     (512, 512)
+    {%endhighlight %}
     
