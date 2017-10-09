@@ -28,7 +28,7 @@ defaults:
 paginate: 20
 
 #### Site
-title : WangMin's blog
+title : WangMin
 tagline: A fresh looking and responsive theme for Jekyll
 assets: /assets
 url:
