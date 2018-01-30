@@ -94,6 +94,6 @@ ls
     2.  运行程序
     3.  ctrl+z  暂停程序放到后台
     4.  bg  将后台程序变成继续运行
-    5.  screen -d   会话分离与恢复 Screen会给出detached提示
+    5.  ctrl-a+d   会话分离与恢复 Screen会给出detached提示
     6.  screen -ls  半个小时之后回来了，找到该screen会话
     7.  screen -r 12865 重新连接会话
