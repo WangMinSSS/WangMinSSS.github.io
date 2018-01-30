@@ -68,11 +68,20 @@ ls
 创建一个变量，读取变量
 
     declare tmp         # 声明变量
-    tmp = 'wangmin'     # 赋值
-    echo $tmp           # 读取变量
-
-将变量写在/etc/profile最后添加永久环境变量
-
 #### 小工具
 
     w3m         # 命令行简易浏览器
+
+#### screen后台运行程序
+
+常用命令
+
+    screen -S yourname -> 新建一个叫yourname的session
+    screen -ls -> 列出当前所有的session
+    screen -r yourname -> 回到yourname这个session
+    screen -d yourname -> 远程detach某个session
+    screen -d -r yourname -> 结束当前session并回到yourname这个session
+    #################################
+    screen -d       会话分离与恢复 Screen会给出detached提示
+    screen -ls  半个小时之后回来了，找到该screen会话
+    screen -r 12865 重新连接会话
