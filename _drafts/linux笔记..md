@@ -46,6 +46,11 @@
     
     df          # 查看磁盘的容量
     du          # 查看目录的容量
+    
+    bg          # 将一个在后台暂停的命令，变成继续执行
+    fg          # 将后台中的命令调至前台继续运行
+    jobs        # 查看当前有多少在后台运行的命令
+    ctrl + z    # 可以将一个正在前台执行的命令放到后台，并且暂停
 
 #### 常用命令2
 
@@ -82,6 +87,13 @@ ls
     screen -d yourname -> 远程detach某个session
     screen -d -r yourname -> 结束当前session并回到yourname这个session
     #################################
-    screen -d       会话分离与恢复 Screen会给出detached提示
-    screen -ls  半个小时之后回来了，找到该screen会话
-    screen -r 12865 重新连接会话
+    
+举例
+
+    1.  screen -r Firework      创建分支
+    2.  运行程序
+    3.  ctrl+z  暂停程序放到后台
+    4.  bg  将后台程序变成继续运行
+    5.  screen -d   会话分离与恢复 Screen会给出detached提示
+    6.  screen -ls  半个小时之后回来了，找到该screen会话
+    7.  screen -r 12865 重新连接会话
