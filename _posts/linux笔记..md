@@ -1,3 +1,11 @@
+---
+layout: photo
+title: linux笔记
+date: 2020-05-09 20:00:00
+categories: Linux
+description: linux常用的语法
+---
+
 #### 常用快捷键
     
     Ctrl d      # 键盘输入结束或推出终端

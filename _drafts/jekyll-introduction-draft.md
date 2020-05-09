@@ -1,10 +1,7 @@
 ---
-layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+layout: photo
+title: Python笔记
+date: 2017-11-04 15:00:00
+categories: Python
+description: Python的一些知识技巧
 ---
-{% include JB/setup %}
-
-
-This is an example of a draft. Read more here: [http://jekyllrb.com/docs/drafts/](http://jekyllrb.com/docs/drafts/)
